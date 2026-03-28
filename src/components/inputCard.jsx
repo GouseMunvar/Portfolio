@@ -7,16 +7,19 @@ const InputCard = () => {
       <input
         type="text"
         placeholder="Name"
+        name="name"
         className="w-[80%] bg-white border border-black py-3 px-4 outline-none rounded-md"
       />
       <input
         type="email"
         placeholder="Email"
+        name="email"
         className="w-[80%] bg-white border border-black py-3 px-4 outline-none rounded-md"
       />
       <textarea
         placeholder="Message"
         rows="4"
+        name="message"
         className="w-[80%] bg-white border border-black py-3 px-4 resize-none outline-none rounded-md"
       />
       <div className="w-[80%] flex justify-end">
